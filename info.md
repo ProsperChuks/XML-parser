@@ -8,4 +8,3 @@
 ├── .gitignore
 ├── README.md
 └── manage.py
-  └── manage.py
