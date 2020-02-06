@@ -1,5 +1,5 @@
 # Python Libraries Used
 
 └── XML
- └── etree
-   └── ElementTree
+└── etree
+└── ElementTree
