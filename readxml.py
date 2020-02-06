@@ -2,7 +2,7 @@
 from xml.etree import ElementTree as ET
 
 #passing in the name of the xml file as a parameter
-xmlfile = ET.parse("file.xml")
+xmlfile = ET.parse("read.xml")
 root = xmlfile.getroot()
 
 # looping through the xml file
