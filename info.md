@@ -1,5 +1,5 @@
 # Python Libraries Used
-├── core
+    ├── core
     ├── media_root/uploaded_videos
     ├── safenigeria
     ├── static
