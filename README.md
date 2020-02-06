@@ -8,3 +8,7 @@ to your current dir with
 1. cd yourdir
 
 2. source env/Scripts/activate
+
+
+### Ongoing
+Writing to XML
