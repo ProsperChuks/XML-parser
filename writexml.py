@@ -1,31 +1,15 @@
+import xml.etree.ElementTree as ET
 
-import xml.etree.ElementTree as et
+tree = ET.ElementTree()
+data = ET.Element('data')
+items = ET.SubElement(data, 'items')
+item1 = ET.SubElement(items, 'item')
+item2 = ET.SubElement(items, 'item')
+item1.set('name','item1')
+item2.set('name','item2')
+item1.text = 'item1abc'
+item2.text = 'item2abc'
 
-# Instance of ElementTree
-tree = et.ElementTree()
-
-# Root Element Tag
-root = et.Element("root")
-
-
-# child Element Tag of root
-a = et.Element("a")
-b = et.Element("b")
-
-# Text to be stored in the a element
-a.text = "five"
-b.text = "Mira"
-
-
-try:
-    # Adds the element tag to root
-    root.append(a)
-    root.append(b)
-except Exception as err:
-    print(f"append() argument must be an Element. cause:{err}")
-
-try:
-    tree._setroot(root)
-    tree.write("write.xml")
-except Exception as e:
-    print(f"cannot write to xml file. cause:{e}")
+mydata = ET.tostring(data)
+tree._setroot(data)
+tree.write("write.xml", "Windows 1252")

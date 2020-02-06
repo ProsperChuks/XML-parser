@@ -1,1 +1,7 @@
-<root><a>five</a><b>Mira</b></root>
+<?xml version='1.0' encoding='Windows 1252'?>
+<data>
+    <items>
+        <item name="item1">item1abc</item>
+        <item name="item2">item2abc</item>
+    </items>
+</data>
