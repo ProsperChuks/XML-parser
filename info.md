@@ -1,5 +1,11 @@
 # Python Libraries Used
 
-└── XML
-└── etree
-└── ElementTree
+├── core
+├── media_root/uploaded_videos
+├── safenigeria
+├── static
+├── templates
+├── .gitignore
+├── README.md
+└── manage.py
+  └── manage.py
