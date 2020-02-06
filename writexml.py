@@ -6,6 +6,8 @@ tree = et.ElementTree()
 
 # Root Element Tag
 root = et.Element("root")
+f = et.Element("f").text = "&nbsp;"
+root.append(f)
 
 # child Element Tag of root
 a = et.Element("a")
